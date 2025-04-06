@@ -103,11 +103,12 @@ let arr = [
     }
 ];
 
-let i = 0, j = 1;
+let i = 0, j = 1 , k=0;
 btn.addEventListener('click', function () {
-
+if(k==0){
         song.innerHTML = '<audio src="./assets/song.mp3" autoplay loop style="display: none;"></audio>'
-
+    k=1;
+}
     
     if (j == 0) {
         topText.innerHTML = 'Nidhi';
