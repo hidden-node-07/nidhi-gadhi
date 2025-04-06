@@ -1,8 +1,8 @@
-
 var btn = document.querySelector('button');
 var img = document.querySelector('img');
 var layer1 = document.querySelector('.layer1');
 var topText = document.querySelector('#topText');
+var song = document.querySelector('.song');
 
 let arr = [
     {
@@ -105,6 +105,9 @@ let arr = [
 
 let i = 0, j = 1;
 btn.addEventListener('click', function () {
+
+        song.innerHTML = '<audio src="./assets/song.mp3" autoplay loop style="display: none;"></audio>'
+
     
     if (j == 0) {
         topText.innerHTML = 'Nidhi';
