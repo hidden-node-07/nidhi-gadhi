@@ -103,7 +103,7 @@ let arr = [
     }
 ];
 
-let i = 1, j = 1;
+let i = 0, j = 1;
 btn.addEventListener('click', function () {
     
     if (j == 0) {
