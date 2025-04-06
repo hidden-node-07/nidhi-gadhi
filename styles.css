@@ -1,13 +1,11 @@
-/* html, body {
-    background-color: rgb(118, 9, 9);
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
+html, body {
+    background-image: url('https://images.unsplash.com/photo-1688413708929-8b2d281803df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fDRrJTIwcGF0dGVybnN8ZW58MHwwfDB8fHww');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+/* 
 
 .outer-stack {
     width: 600px;
